@@ -1,7 +1,7 @@
 # Get temperature and humidity data
 Write 0x01 in 2 bytes (little-endian byte order) to ***ebe0ccb7-7a0a-4b0c-8a1a-6ff2997da3a6*** characteristic descriptor, and wait for notification with data.
 
-First 2 bytes with temperature data, 3 bytes with humidity data.
+First 2 bytes with temperature data, 3 byte with humidity data.
 ```python
 class sensor_Delegate(btle.DefaultDelegate):
     def handleNotification(self, cHandle, data):
