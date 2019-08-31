@@ -40,7 +40,7 @@ For Celsius:
 ```python
 (0xff).to_bytes(1, byteorder = 'little')
 ```
-# Changing time
+# Read and changing time
 Just write 5 bytes to ***ebe0ccb7-7a0a-4b0c-8a1a-6ff2997da3a6*** characteristic.
 
 This is a unix timestamp that is wrapped backwards and has a timezone byte at the end.
