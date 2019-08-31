@@ -52,7 +52,7 @@ You get `[95][2F][6A][5D][03]`, Rotate it.
 
 And you get `[5D][6A][2F][95]` with `[03]` at the end, which means +3 hours relative to UTC.
 
-In decimals it mean `1567240085`.
+In decimals `[5D][6A][2F][95]` mean `1567240085`.
 
 We convert this unix epoch time into a normal human language, and we get `Saturday, 31 August 2019 year, 8:28:05`
 
