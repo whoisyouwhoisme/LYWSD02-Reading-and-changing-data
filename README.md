@@ -47,5 +47,7 @@ This is a unix timestamp that is wrapped backwards and has a timezone byte at th
 You can be convinced of it if you read bytes in this characteristic.
 
 Read bytes (big-endian byte order) and convert it from bytes to hex.
+
 You get `[95][2F][6A][5D][03]` Rotate it.
+
 And you get`[5D][6A][2F][95]` with `[03]` at the end, which means +3 hours relative to UTC.
