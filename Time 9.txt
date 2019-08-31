@@ -1,0 +1,143 @@
+Service: 00001800-0000-1000-8000-00805f9b34fb
+        Characteristic: 00002a00-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'LYWSD02'
+        Characteristic: 00002a01-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'\x00\x00'
+Service: 00001801-0000-1000-8000-00805f9b34fb
+        Characteristic: 00002a05-0000-1000-8000-00805f9b34fb
+                 READ INDICATE
+                 b'\x01\x00\xff\xff'
+Service: 0000180a-0000-1000-8000-00805f9b34fb
+        Characteristic: 00002a29-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'miaomiaoce.com'
+        Characteristic: 00002a24-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'LYWSD02'
+        Characteristic: 00002a25-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'F210FFFF038E6F035D'
+        Characteristic: 00002a27-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'F2_LN'
+        Characteristic: 00002a26-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'1.1.2_0042'
+        Characteristic: 00002a28-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'0042'
+        Characteristic: 00002a23-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'\xc58\x80}[?'
+Service: 0000fef5-0000-1000-8000-00805f9b34fb
+        Characteristic: 8082caa8-41a6-4021-91c6-56f9b954cc34
+                 READ WRITE
+                 b''
+        Characteristic: 724249f0-5ec3-4b5f-8804-42345af08651
+                 READ WRITE
+                 b''
+        Characteristic: 6c53db25-47a1-45fe-a022-7c92fb334fd4
+                 READ
+                 b''
+        Characteristic: 9d84b9a3-000c-49d8-9183-855b673fda31
+                 READ WRITE
+                 b''
+        Characteristic: 457871e8-d516-4ca1-9116-57d0b17b9cb2
+                 READ WRITE NO RESPONSE WRITE
+                 b''
+        Characteristic: 5f78df94-798c-46f5-990a-b3eb6a065c88
+                 READ NOTIFY
+                 b'\x00'
+        Characteristic: 64b4e8b5-0de5-401b-a21d-acc8db3b913a
+                 READ
+                 b'\r'
+        Characteristic: 42c3dfdd-77be-4d9c-8454-8f875267fb3b
+                 READ
+                 b'\xf4\x00'
+        Characteristic: b7de1eea-823d-43bb-a3af-c4903dfce23c
+                 READ
+                 b'\x17\x00'
+Service: 2b43ccc0-2506-415c-a16c-e4cc5f52ef78
+        Characteristic: 2b43ccc1-2506-415c-a16c-e4cc5f52ef78
+                 READ
+                 b'\xfe\xfe\xfe\xfe\xfe\xfe'
+        Characteristic: 2b43ccc2-2506-415c-a16c-e4cc5f52ef78
+                 WRITE NO RESPONSE WRITE NOTIFY
+        Characteristic: 2b43ccc3-2506-415c-a16c-e4cc5f52ef78
+                 WRITE NO RESPONSE WRITE
+        Characteristic: 2b43ccc4-2506-415c-a16c-e4cc5f52ef78
+                 WRITE NO RESPONSE WRITE
+        Characteristic: 2b43ccc5-2506-415c-a16c-e4cc5f52ef78
+                 NOTIFY
+        Characteristic: 2b43ccc6-2506-415c-a16c-e4cc5f52ef78
+                 WRITE NO RESPONSE WRITE
+Service: ebe0ccb0-7a0a-4b0c-8a1a-6ff2997da3a6
+        Characteristic: ebe0ccb7-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ WRITE NO RESPONSE WRITE
+                 b'5\xf7\xd4\xf2\x03'
+        Characteristic: ebe0ccb9-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ
+                 b'%\x00\x00\x00&\x00\x00\x00'
+        Characteristic: ebe0ccba-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ WRITE NO RESPONSE WRITE
+                 b'$\x00\x00\x00'
+        Characteristic: ebe0ccbb-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ
+                 b'\x00\x00\x00\x00\x00\x86g]^\nP\x9c\tP\x00\x00'
+        Characteristic: ebe0ccbc-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ NOTIFY
+                 b''
+        Characteristic: ebe0ccbe-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ WRITE NO RESPONSE WRITE
+                 b'\xff'
+        Characteristic: ebe0ccc1-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ NOTIFY
+                 b''
+        Characteristic: ebe0ccc2-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ WRITE NO RESPONSE WRITE
+                 b'\xff'
+        Characteristic: ebe0ccc3-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ WRITE NO RESPONSE WRITE
+                 b'\x00\xff\x00\xff\x00\xff'
+        Characteristic: ebe0ccc4-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ
+                 b'N'
+        Characteristic: ebe0ccc8-7a0a-4b0c-8a1a-6ff2997da3a6
+                 WRITE NO RESPONSE WRITE
+        Characteristic: ebe0ccd2-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ WRITE NO RESPONSE WRITE
+                 b'\n6601001261'
+        Characteristic: ebe0ccd3-7a0a-4b0c-8a1a-6ff2997da3a6
+                 READ WRITE NO RESPONSE WRITE
+                 b'\x00'
+        Characteristic: ebe0ccd4-7a0a-4b0c-8a1a-6ff2997da3a6
+                 WRITE NO RESPONSE WRITE
+Service: aaaaaaa0-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+        Characteristic: aaaaaaa1-aaaa-aaaa-aaaa-aaaaaaaaaaaa
+                 READ WRITE NO RESPONSE WRITE
+                 b''
+Service: fafafa00-fafa-fafa-fafa-fafafafafafa
+        Characteristic: fafafa01-fafa-fafa-fafa-fafafafafafa
+                 READ WRITE NO RESPONSE WRITE
+                 b''
+Service: 0000fe95-0000-1000-8000-00805f9b34fb
+        Characteristic: 00000001-0000-1000-8000-00805f9b34fb
+                 WRITE NOTIFY
+        Characteristic: 00000002-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'[\x04'
+        Characteristic: 00000004-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'T\x823\xe4\x0cw\xea\x95\x8fm'
+        Characteristic: 00000005-0000-1000-8000-00805f9b34fb
+                 WRITE NOTIFY
+        Characteristic: 00000010-0000-1000-8000-00805f9b34fb
+                 WRITE
+        Characteristic: 00000013-0000-1000-8000-00805f9b34fb
+                 READ WRITE
+                 b'e\xcen\xbe\x10\x1b\xf4\x94\x8a=\x8b\xc9g\xe1-,\x84\n\x19\xa7'
+        Characteristic: 00000014-0000-1000-8000-00805f9b34fb
+                 READ
+                 b'LpRoYe\xad$\x05\xa7\xc2\xdd'
