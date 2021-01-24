@@ -1,5 +1,8 @@
 # Get temperature and humidity data
-Write 0x01 in 2 bytes (little-endian byte order) to ***ebe0ccc1-7a0a-4b0c-8a1a-6ff2997da3a6*** characteristic descriptor, and wait for notification with data.
+Service: **ebe0ccb0-7a0a-4b0c-8a1a-6ff2997da3a6**
+Characteristic: **ebe0ccc1-7a0a-4b0c-8a1a-6ff2997da3a6**
+
+Write 0x01 in 2 bytes (little-endian byte order) to characteristic descriptor, and wait for notification with data.
 
 First 2 bytes with temperature data, 3 byte with humidity data.
 ```python
@@ -20,7 +23,10 @@ Temperature: 28.85°C Humidity: 39%
 Temperature: 28.82°C Humidity: 39%
 ```
 # Get battery charge level
-Just read ***ebe0ccc4-7a0a-4b0c-8a1a-6ff2997da3a6*** characteristic, characteristic provide 1 byte of data, with approximately charge level.
+Service: **ebe0ccb0-7a0a-4b0c-8a1a-6ff2997da3a6**
+Characteristic: **ebe0ccc4-7a0a-4b0c-8a1a-6ff2997da3a6**
+
+Just read characteristic, characteristic provide 1 byte of data, with approximately charge level.
 
     Characteristic: ebe0ccc4-7a0a-4b0c-8a1a-6ff2997da3a6
         READ
@@ -30,7 +36,10 @@ Just read ***ebe0ccc4-7a0a-4b0c-8a1a-6ff2997da3a6*** characteristic, characteris
 int.from_bytes(b'N', byteorder='little') = 78% battery charge level
 ```
 # Changing Fahrenheit to Celsius
-Just write 1 byte to ***ebe0ccbe-7a0a-4b0c-8a1a-6ff2997da3a6*** characteristic.
+Service: **ebe0ccb0-7a0a-4b0c-8a1a-6ff2997da3a6**
+Characteristic: **ebe0ccbe-7a0a-4b0c-8a1a-6ff2997da3a6**
+
+Just write 1 byte to characteristic.
 
 For Fahrenheit:
 ```python
@@ -41,7 +50,10 @@ For Celsius:
 (0xff).to_bytes(1, byteorder = 'little')
 ```
 # Reading and changing time
-For changing just write 5 bytes to ***ebe0ccb7-7a0a-4b0c-8a1a-6ff2997da3a6*** characteristic.
+Service: **ebe0ccb0-7a0a-4b0c-8a1a-6ff2997da3a6**
+Characteristic: **ebe0ccb7-7a0a-4b0c-8a1a-6ff2997da3a6**
+
+For changing just write 5 bytes to characteristic.
 
 This is a unix timestamp that is wrapped backwards and has a timezone byte at the end.
 You can be convinced of it if you read bytes in this characteristic.
