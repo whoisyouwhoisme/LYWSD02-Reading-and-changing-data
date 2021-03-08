@@ -3,7 +3,7 @@ Service: **ebe0ccb0-7a0a-4b0c-8a1a-6ff2997da3a6**
 
 Characteristic: **ebe0ccc1-7a0a-4b0c-8a1a-6ff2997da3a6**
 
-Write 0x01 in 2 bytes (little-endian byte order) to characteristic descriptor, and wait for notification with data.
+Write 0x01 to characteristic descriptor, and wait for notification with data.
 
 First 2 bytes with temperature data, 3 byte with humidity data.
 ```python
